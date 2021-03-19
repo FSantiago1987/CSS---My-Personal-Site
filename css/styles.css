@@ -71,6 +71,8 @@ body {
     left: 56.5%;
     opacity: 0.9;
     transform: rotateX(-65deg);
+
+    
 }
 
 .profile {
@@ -209,4 +211,109 @@ hr {
 
 .footer-link:hover {
     color:#11db65;
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    #heading {
+        margin: 40px auto 0 auto;
+        font-size: 4.225rem;
+    }
+    
+    #sub-heading {
+        margin: 0;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .top-container {
+        min-height: 320px;
+    }
+    .DeLorian {
+        width: 15.625rem;
+        height: 15.25rem;
+        top: 250px;
+        left: 40%;
+        transform: rotateX(-65deg);       
+    }
+
+    .top-cloud {
+        position: absolute;
+        right: 100px;
+        top: 50px;
+    }
+    
+    .bottom-cloud {
+        position: absolute;
+        left: 300px;
+        top: 0px;
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .skill-row, .inner {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .css-img,
+    .html-img,
+    .react-img {
+        float: none;
+        width: 70px;
+        height: 70px;
+        margin: 0px;
+    }
+
+    .skill-row {
+        text-align: center;
+    }
+
+    .skill-row p {
+        text-align: justify;
+    }
+
+    .contact-me h3 {
+        font-size: 15px;
+    }
+
+    .contact-me p {
+        font-size: 12px;
+    }
+
+    .skill-row h3 {
+        margin-bottom: 0px;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 8px 16px 8px 16px;
+    }
+
+    .bottom-container {
+        padding: 30px 0 30px;
+        margin-top: 30px;
+    }
+
+    .footer-link {
+        font-size: 15px;
+        padding-left: 15px;
+        font-weight: 600;
+    }
+
+    .copyright {
+        color: #1b3a1c;
+        font-size: 0.60rem;
+        padding: 20px 0;
+        font-weight: 500;
+    }
+
 }
